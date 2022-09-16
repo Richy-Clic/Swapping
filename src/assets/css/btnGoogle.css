@@ -1,0 +1,25 @@
+.google-btn {
+    
+    color: rgb(70, 70, 70);
+    font-weight:600;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: solid 2px #c3c3c3;
+    opacity: 1;
+    transition: all 0.3s;
+    text-decoration: none;
+
+}
+
+.google-btn:hover {
+    /* opacity: 0.6; */
+    background-color: #c3c3c3;
+    color: white;
+}
+
+.tag-btn-google {
+    margin-left: 10px;
+}
+
+

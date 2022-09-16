@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from '../assets/logo.png';
-// import { BtnLoginFacebook } from '../components/BtnLoginFacebook';
-// import { BtnLoginGoogle } from '../components/BtnLoginGoogle';
-// import '../assets/css/form-login.css'
-// import { MdOutlineAddReaction, MdAddCircle } from "react-icons/md";
+import logo from '../assets/img/logo.png';
+import { BtnLoginFacebook } from '../components/BtnFacebookLogin';
+import { BtnLoginGoogle } from '../components/BtnGoogleLogin';
+import '../assets/css/login.css'
 
 const Login = () => {
     
@@ -15,7 +14,7 @@ const Login = () => {
                 <img src={logo} alt="Logo swapping"/>
                 {/* <h4>Intercambio navideño</h4> */}
             </div>
-            <div className="col-md-4 offset-md-3 mx-auto text-center">
+            <div className="col-xl-3 col-lg-4 col-md-5 col-sm-8 mx-auto text-center">
                 <form>
                     <input type="text" className='form-control mb-1' placeholder='Nombre de usuario'/>
                     <input type="text" className='form-control mb-2' placeholder='Password' />
@@ -26,12 +25,18 @@ const Login = () => {
                 {/* <div className='strike'>
                     <span className='text-middle-line'>O</span>
                 </div> */}
-                {/* <div className='mb-1'>
-                    <BtnLoginFacebook/>
+                <div className='strike'>
+                    <span className='text-middle-line'>O</span>
                 </div>
-                <div className="mb-1">
-                    <BtnLoginGoogle />
-                </div> */}
+
+                <div className='row'>
+                <BtnLoginFacebook/>
+                </div>
+
+                <div className='row mt-2 mb-4'>
+                <BtnLoginGoogle/>
+                </div>
+                
             </div>
 
             {/* <div className='text-center mt-3'>

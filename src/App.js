@@ -9,6 +9,7 @@ import Login from './pages/Login'
 
 
 
+
 function App() {
 
   
@@ -18,12 +19,14 @@ console.log(params);
     
     <BrowserRouter>
     <Header />
-    <Routes>
-      <Route path="/register" element={<Register />}/>
-      <Route path="/home" element={<Home />}/>
-      <Route path="*" element={<NotFound />}/>
-      <Route path="/" element={<Login />}></Route>
-    </Routes>
+    <div className='container'>
+      <Routes>
+        <Route path="/register" element={<Register />}/>
+        <Route path="/home" element={<Home />}/>
+        <Route path="*" element={<NotFound />}/>
+        <Route path="/" element={<Login />}></Route>
+      </Routes>
+    </div>
       
     <Footer />
     </BrowserRouter>

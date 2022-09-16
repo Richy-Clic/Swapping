@@ -1,0 +1,24 @@
+.facebook-btn {
+    background-color: #3a579d;
+    color: white;
+    font-weight:600;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    opacity: 1;
+    transition: all 0.3s;
+    text-decoration: none;
+
+}
+
+.facebook-btn:hover {
+    /* opacity: 0.6; */
+    background-color: #5076cf;
+}
+
+.tag-btn-facebook {
+    margin-left: 10px;
+}
+
+
