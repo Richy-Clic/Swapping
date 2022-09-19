@@ -1,4 +1,3 @@
-
 .strike {
     display: block;
     text-align: center;
@@ -32,4 +31,10 @@
 .strike > span:after {
     left: 100%;
     margin-left: 15px;
+}
+
+.background-img-custom {
+    /* background-image: url("/src/assets/img/6240373.jpg") !important; */
+    background-color: rgb(115, 35, 155, 0.65) !important;
+    background-size: cover;
 }

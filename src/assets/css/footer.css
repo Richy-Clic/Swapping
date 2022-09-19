@@ -1,0 +1,26 @@
+.icon-fb-footer {
+    font-size: 2rem;
+    color: rgb(43, 43, 43);
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icon-ig-footer {
+    font-size: 1.9rem;
+    color: rgb(43, 43, 43);
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icon-fb-footer:hover {
+    color: rgb(148, 148, 148);
+}
+
+.icon-ig-footer:hover {
+    color: rgb(148, 148, 148);
+}
+.footer-container {
+    background-color: rgb(195, 195, 195);
+}

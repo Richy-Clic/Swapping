@@ -9,7 +9,7 @@ const Register = () => {
         <form>
           <input type="text" className='form-control mb-1' placeholder='Nombre de usuario'/>
           <textarea name="" id="" cols="30" rows="10"></textarea>
-          <button className='btn btn-success'>INICIA SESION</button>
+          <button className='btn btn-success'>Update</button>
         </form>
         {/* <form>
           <input type="text" />
