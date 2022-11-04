@@ -6,7 +6,7 @@ import "../assets/css/footer.css";
 const Footer = () => {
 
     return(
-        <footer className='pt-5 pb-3 my-4 px-3 mb-0 footer-container'>
+        <footer className='pt-4 pb-3 px-3 mb-0 footer-container'>
             <div className="row mx-auto">
                 <div className="col-12 text-center">
                     <h3>Pasos para iniciar un intercambio</h3>

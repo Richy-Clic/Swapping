@@ -1,4 +1,9 @@
-body {
-  background-color: aqua;
-  /* background-image: ; */
+.background-img-custom {
+  /* background-color: aqua; */
+  background-image: url('./assets/img/loginbg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   /* Full height */
+   height: 100vh; 
 }

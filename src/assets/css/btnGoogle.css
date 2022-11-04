@@ -1,11 +1,11 @@
 .google-btn {
-    
+
     color: rgb(70, 70, 70);
     font-weight:600;
-    font-size: 1.1rem;
-    border-radius: 50px;
+    font-size: 1rem;
+    border-radius: 25px;
     padding: 10px 20px;
-    border: solid 2px #c3c3c3;
+    border: none;
     opacity: 1;
     transition: all 0.3s;
     text-decoration: none;
@@ -19,7 +19,7 @@
 }
 
 .tag-btn-google {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 

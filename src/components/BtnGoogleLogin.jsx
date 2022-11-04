@@ -19,7 +19,7 @@ export const BtnLoginGoogle = () => {
                 render={renderProps => (
                     <button className="google-btn"  onClick={renderProps.onClick} disabled={renderProps.disabled}>
                         <FcGoogle/> 
-                        <span className='tag-btn-google'>Continue with Google</span>
+                        <span className='tag-btn-google'>Continuar con Google</span>
                     </button>
                 )}
 

@@ -1,0 +1,14 @@
+.btn-join-swapping {
+    background-color: rgb(48, 143, 57);
+    border-radius: 100px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px 0px;
+    color: white;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.btn-join-swapping:hover {
+    background-color:  rgb(75, 192, 87);;
+}

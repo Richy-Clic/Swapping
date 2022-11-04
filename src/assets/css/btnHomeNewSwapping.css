@@ -1,0 +1,16 @@
+.btn-home-new-swapping {
+    background-color: brown;
+    color: white;
+    border-radius: 100px;
+    padding: 30px 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: .3s;
+    text-align: center;
+    margin: 45px 0px;
+    text-decoration: none;
+}
+
+.btn-home-new-swapping:hover {
+    background-color: rgb(216, 59, 59);
+}

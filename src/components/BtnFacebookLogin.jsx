@@ -21,7 +21,7 @@ export const BtnLoginFacebook = () => {
                 callback={responseFacebook} 
                 render={renderProps => (
                     <button className="facebook-btn" onClick={renderProps.onClick}>
-                        {<BsFacebook /> } <span className='tag-btn-facebook'>Continue with Facebook</span>
+                        {<BsFacebook /> } <span className='tag-btn-facebook'>Continuar con Facebook</span>
                     </button>
                 )}            
             />
