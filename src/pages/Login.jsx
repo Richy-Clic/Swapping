@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../assets/img/logo.png';
-import { BtnLoginFacebook } from '../components/BtnFacebookLogin';
-import { BtnLoginGoogle } from '../components/BtnGoogleLogin';
+import { BtnLoginFacebook } from '../components/BtnFacebookLogin'
 import '../assets/css/login.css'
 import "../assets/css/custom-input.css";
 
@@ -25,20 +24,20 @@ const Login = () => {
                     <div className='strike'>
                         <span className='text-middle-line'>O</span>
                     </div>
-
+                        <BtnLoginFacebook />
                     <div className='row'>
-                    <BtnLoginFacebook/>
+                  
                     </div>
 
                     <div className='row mt-2 mb-4'>
-                    <BtnLoginGoogle/>
+                    {/* //google button */}
                     </div>
 
                     <div className='text-center mt-3'>
                         <p className='registrate'>No tienes una cuenta aún? <a href='#'>Registrate</a></p>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     );
 };

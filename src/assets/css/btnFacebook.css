@@ -9,6 +9,7 @@
     opacity: 1;
     transition: all 0.3s;
     text-decoration: none;
+    position: relative;
 
 }
 
@@ -18,7 +19,13 @@
 }
 
 .tag-btn-facebook {
-    margin-left: 10px;
+    position: absolute;
+    top: 4%;
+    font-size: 1.4rem;
+}
+
+.tag-facebook {
+    margin-left: 35px;
 }
 
 

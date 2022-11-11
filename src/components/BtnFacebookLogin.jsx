@@ -1,30 +1,38 @@
 import React from 'react';
-import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props'
 import { BsFacebook } from "react-icons/bs";
+import { signInWithPopup, FacebookAuthProvider } from "firebase/auth";
+import { auth } from "../assets/Firebase/firebase-config";
+
+import {redirect} from 'react-router-dom';
 import '../assets/css/btnFacebook.css'
+
+const singInWithFacebook = () => {
+alert()
+    redirect("../pages/Home.jsx")
+    // const provider = new FacebookAuthProvider();
+    // signInWithPopup(auth, provider)
+    // .then(response => {
+    //     console.log(response.user.email, response.user.displayName, response.user.photoURL);
+    // })
+    // .catch(err => {
+    //     console.log(err.message);
+    // })
+    
+}
+
+
+
 
 export const BtnLoginFacebook = () => {
 
-    // const componentClicked = (response) => {
-    //     console.log(response);               
-    // }
-
-    const responseFacebook = (response) => {
-        console.log(response);               
-    }
     return (
         <>
-            <FacebookLogin
-                appId="612652996670051"
-                // autoLoad={true}
-                fields="name,email,picture"
-                callback={responseFacebook} 
-                render={renderProps => (
-                    <button className="facebook-btn" onClick={renderProps.onClick}>
-                        {<BsFacebook /> } <span className='tag-btn-facebook'>Continuar con Facebook</span>
-                    </button>
-                )}            
-            />
+            <button 
+                className='facebook-btn' 
+                onClick={singInWithFacebook}>
+                <span className='tag-btn-facebook'><BsFacebook /></span>
+                <span className='tag-facebook'>Continuar con Facebook</span>
+            </button>
         </>
     );
 };
